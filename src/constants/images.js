@@ -29,6 +29,7 @@ import project01 from "../assets/gpt3-project.png";
 import project02 from "../assets/restaurant.png";
 import project03 from "../assets/airbnb.png";
 import project04 from "../assets/portfolio.png";
+import project05 from "../assets/portfolio-next.png";
 
 export default {
   email,
@@ -55,4 +56,5 @@ export default {
   project02,
   project03,
   project04,
+  project05,
 };

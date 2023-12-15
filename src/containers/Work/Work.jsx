@@ -36,10 +36,10 @@ const works = [
   {
     name: "Project: Portfolio",
     description:
-      "A website created with the intention to create a more simple and mordenized portfolio. Still under construction",
-    codeLink: "https://github.com/BrunaKobay/portfolio-review",
-    projectLink: "https://portfolio-review-drab.vercel.app",
-    imgUrl: images.project04,
+      "A website created with NextJS with the intention to create a more simple and mordenized portfolio.",
+    codeLink: "https://github.com/BrunaKobay/portfolio-next",
+    projectLink: "https://portfolio-next-khaki-ten.vercel.app",
+    imgUrl: images.project05,
     tags: ["Next JS"],
   },
 ];
@@ -106,4 +106,8 @@ const Work = () => {
   );
 };
 
-export default AppWrap(MotionWrap(Work, "app__works"), "work", "app__primarybg");
+export default AppWrap(
+  MotionWrap(Work, "app__works"),
+  "work",
+  "app__primarybg"
+);
